@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shubh.studence.Home"
+    android:background="@drawable/bg_type_2">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp">
+        <Button
+            android:id="@+id/attendence"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="@drawable/text_input_section"
+            android:text="Attendence"
+            android:textSize="30dp"/>
+
+        <Button
+            android:id="@+id/schedule"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="@drawable/text_input_section"
+            android:text="Schedule"
+            android:textSize="30dp"/>
+
+        <Button
+            android:id="@+id/analysis"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="@drawable/text_input_section"
+            android:text="Analysis"
+            android:textSize="30dp"/>
+
+        <Button
+            android:id="@+id/pdf"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="@drawable/text_input_section"
+            android:text="pdf"
+            android:textSize="30dp"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

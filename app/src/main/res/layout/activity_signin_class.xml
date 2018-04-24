@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tiwari.studence.SigninClass"
+    android:background="@drawable/bg_type_2"
+    android:orientation="vertical"
+    >
+
+
+    <Spinner
+        android:id="@+id/select_class"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+
+        />
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="350dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_height="60dp"
+        android:text="Submit"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:background="@drawable/text_input_section"/>
+
+
+</LinearLayout>
+
